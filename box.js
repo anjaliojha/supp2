@@ -16,7 +16,7 @@ class Box {
         translate(boxobj.x,boxobj.y);
         fill("red");
         rectMode(CENTER)
-        rect(boxobj.x,boxobj.y,this.width,this.height);
+        rect(0,0,this.width,this.height);
         pop();
     }
 }

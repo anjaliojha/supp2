@@ -30,13 +30,15 @@ function setup() {
 
 
 function draw() {
-  background(0);
+  background("blue");
   Engine.update(engine);
 
   drawSprites();
   
   box1.display();
+  
   ground.display();
+
   
 }
 

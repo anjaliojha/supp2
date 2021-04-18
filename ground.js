@@ -14,10 +14,10 @@ class Ground {
         var groundobj = this.body.position;
          
         push();
-        translate(groundobj.x,groundobj.y);
-        fill("white");
+        //translate(groundobj.x,groundobj.y);
+        fill("brown");
         rectMode(CENTER);
-        rect(groundobj.y,groundobj.y,width,height);
+        rect(groundobj.x,groundobj.y,this.width,this.height);
         pop();
     }
 }
